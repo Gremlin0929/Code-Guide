@@ -44,10 +44,13 @@
   * `aria-*` , `role`
   
   * `required` , `readonly` , `disabled`
+  
 * boolean属性指不需要声明取值的属性。
 
+  ​	boolean属性的存在表示取值为true，不存在则表示取值为false 
+
   ```html
-  <!-- boolean属性的存在表示取值为true，不存在则表示取值为false --!>
+  
   <input type="text" disabled>
   
   <input type="checkbox" value="1" checked>
